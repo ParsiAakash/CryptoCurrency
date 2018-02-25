@@ -40,6 +40,11 @@ Read instructions below for using assets from JavaScript and HTML.
 You can, however, create more top-level directories.<br>
 They will not be included in the production build so you can use them for things like documentation.
 
+## Installations using npm/ yarn
+npm install
+npm install antd --save (ant library )
+npm install react-dynamic-modal (react-modal library)
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -141,22 +146,6 @@ yarn add husky lint-staged prettier
 * `husky` makes it easy to use githooks as if they are npm scripts.
 * `lint-staged` allows us to run scripts on staged files in git. See this [blog post about lint-staged to learn more about it](https://medium.com/@okonetchnikov/make-linting-great-again-f3890e1ad6b8).
 * `prettier` is the JavaScript formatter we will run before commits.
-
-## Installing a Dependency
-
-The generated project includes React and ReactDOM as dependencies. It also includes a set of scripts used by Create React App as a development dependency. You may install other dependencies (for example, React Router) with `npm`:
-
-```sh
-npm install --save react-router
-```
-
-Alternatively you may use `yarn`:
-
-```sh
-yarn add react-router
-```
-
-This works for any library, not just `react-router`.
 
 ## Importing a Component
 
