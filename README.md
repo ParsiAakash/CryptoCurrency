@@ -41,9 +41,9 @@ You can, however, create more top-level directories.<br>
 They will not be included in the production build so you can use them for things like documentation.
 
 ## Installations using npm/ yarn
-npm install
-npm install antd --save (ant library )
-npm install react-dynamic-modal (react-modal library)
+npm install <br>
+npm install antd --save (ant library )<br>
+npm install react-dynamic-modal (react-modal library) <br>
 
 ## Available Scripts
 
